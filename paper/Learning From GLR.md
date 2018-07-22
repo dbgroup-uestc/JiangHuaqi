@@ -14,9 +14,9 @@
 
   Second, they assign a POI to multiple regions by considering the influence of a POI.
 
-  Finally, they  construct a Huffman tree on each region.![1532248143883](D:\github\paper\1532248143883.png)
+  Finally, they  construct a Huffman tree on each region.![1532248143883](./1532248143883.png)
 
-  Then, we can get the new hierarchical SoftMax function $Pr(l|C(l)) = \prod_{path_{k} \in{P(l)}}Pr(path_{k})\times Pr(l|C(l))^{path_{k}}$ to replace the normal SoftMax function.
+  Then, we can get the new hierarchical SoftMax function $Pr(l|C(l)) = \prod_{path_{k} \in{P(l)}}Pr(path_{k})\times Pr(l|C(l))^{path_{k}}​$ to replace the normal SoftMax function.
 
   Finally,we maximize the posterior probability.So we can get:$\Theta = argmax_{(W(\mathcal{L}),\Psi(B))}\prod_{(l,C(l))\in \mathcal{H} Pr(l|C(l))}Pr(l|C(l))$.Here, $W(\mathcal{L}) $ represent the latent representations of all the POIs and $\Psi(B)$ represent the latent representations of inner nodes.
 
