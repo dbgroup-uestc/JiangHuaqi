@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6342bdd2-95e8-4d90-b31f-f463a4e3a83e" name="Default" comment="">
+    <list default="true" id="6342bdd2-95e8-4d90-b31f-f463a4e3a83e" name="Default" comment="2017/7/22">
+      <change beforePath="$PROJECT_DIR$/.idea/github.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/github.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paper/Learning From GLR.md" beforeDir="false" afterPath="$PROJECT_DIR$/paper/Learning From GLR.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,28 +14,32 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/JiangHuaqi$test.coverage" NAME="test Coverage Results" MODIFIED="1532314668976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Learning From GLR.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Learning From GLR.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paper/Learning From GLR.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="304">
-                <caret line="16" column="153" selection-start-line="16" selection-start-column="153" selection-end-line="16" selection-end-column="153" />
-              </first_editor>
-              <second_editor />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="1532248143883.png" pinned="false" current-in-tab="false">
@@ -54,6 +60,7 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/paper/Learning From GLR.md" />
+        <option value="$PROJECT_DIR$/code/test.py" />
       </list>
     </option>
   </component>
@@ -67,8 +74,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
@@ -77,23 +84,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="github" type="b2602c69:ProjectViewProjectNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="JiangHuaqi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JiangHuaqi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="github" type="b2602c69:ProjectViewProjectNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="paper" type="462c0819:PsiDirectoryNode" />
+              <item name="JiangHuaqi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JiangHuaqi" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -101,6 +108,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/JiangHuaqi/code" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -113,6 +121,32 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="github" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -170,20 +204,29 @@
     <option name="localTasksCounter" value="7" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50065106" side_tool="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49934897" visible="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22526042" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49934897" weight="0.33694476" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23294243" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -192,13 +235,15 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -223,21 +268,29 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/paper/Learning From GLR.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/paper/1532248143883.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paper/Learning From GLR.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paper/1532248143883.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paper/Learning From GLR.md" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/paper/Learning From GLR.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -274,33 +327,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="81" lean-forward="true" selection-start-line="1" selection-start-column="81" selection-end-line="1" selection-end-column="81" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/paper/1532248143883.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/paper/Learning From GLR.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="304">
-            <caret line="16" column="153" selection-start-line="16" selection-start-column="153" selection-end-line="16" selection-end-column="153" />
-          </first_editor>
-          <second_editor />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
