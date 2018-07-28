@@ -4,13 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/code/POICount.py" line="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6342bdd2-95e8-4d90-b31f-f463a4e3a83e" name="Default" comment="2017/7/22">
-      <change afterPath="$PROJECT_DIR$/code/BinaryTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/POI2Vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/POICount.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/github.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/github.iml" afterDir="false" />
+    <list default="true" id="6342bdd2-95e8-4d90-b31f-f463a4e3a83e" name="Default" comment="2017/7/28 完成数据清理">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/BinaryTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/BinaryTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/POICount.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/POICount.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,14 +19,14 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/JiangHuaqi$POI2Vec.coverage" NAME="POI2Vec Coverage Results" MODIFIED="1532675905801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
     <SUITE FILE_PATH="coverage/JiangHuaqi$test.coverage" NAME="test Coverage Results" MODIFIED="1532522666052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
-    <SUITE FILE_PATH="coverage/JiangHuaqi$POICount.coverage" NAME="POICount Coverage Results" MODIFIED="1532699375226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/JiangHuaqi$POICount.coverage" NAME="POICount Coverage Results" MODIFIED="1532783850450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="POI2Vec.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/POI2Vec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="57">
               <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -38,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="POICount.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="POICount.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/POICount.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="368">
+              <caret line="69" column="23" lean-forward="true" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -50,11 +47,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTree.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/datasets/poidata/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/datasets/poidata/Foursquare/test.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="train.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/datasets/poidata/Foursquare/train.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTree.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/BinaryTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="197">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -87,8 +107,8 @@
         <option value="$PROJECT_DIR$/code/POICounter.py" />
         <option value="$PROJECT_DIR$/code/POI2Vec.py" />
         <option value="$PROJECT_DIR$/code/datasets/BinaryTree.py" />
-        <option value="$PROJECT_DIR$/code/BinaryTree.py" />
         <option value="$PROJECT_DIR$/code/POICount.py" />
+        <option value="$PROJECT_DIR$/code/BinaryTree.py" />
       </list>
     </option>
   </component>
@@ -128,6 +148,21 @@
               <item name="JiangHuaqi" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="datasets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JiangHuaqi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JiangHuaqi" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="poidata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JiangHuaqi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JiangHuaqi" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="poidata" type="462c0819:PsiDirectoryNode" />
+              <item name="Foursquare" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JiangHuaqi" type="b2602c69:ProjectViewProjectNode" />
@@ -296,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532351163325</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2017/7/28 完成数据清理">
+      <created>1532776952204</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1532776952204</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -326,7 +368,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -362,10 +404,18 @@
     <MESSAGE value="add method to show latex on github." />
     <MESSAGE value="Learning from GLR" />
     <MESSAGE value="2017/7/22" />
-    <option name="LAST_COMMIT_MESSAGE" value="2017/7/22" />
+    <MESSAGE value="2017/7/28 完成数据清理" />
+    <option name="LAST_COMMIT_MESSAGE" value="2017/7/28 完成数据清理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/code/POICount.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -373,7 +423,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="103" />
+      <option name="time" value="104" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -425,20 +475,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/paper/Learning From GLR.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paper/Learning From GLR.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -670,6 +706,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/code/datasets/poidata/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/datasets/poidata/Foursquare/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/code/datasets/poidata/Foursquare/train.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -679,7 +725,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/POI2Vec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="57">
           <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
@@ -687,20 +733,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/BinaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/POICount.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="368">
+          <caret line="69" column="23" lean-forward="true" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/BinaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
