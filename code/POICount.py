@@ -5,6 +5,9 @@ class POICounter():
     def __init__(self,poi_list):
         self.poi_list = poi_list
         self.count_res = None
+        self.user_dict = None
+        self.poi_dict = {}
+
 
         self.POI_Count(self.poi_list)
 
@@ -18,7 +21,7 @@ class POICounter():
             tempLine[0] = tempLine[0][5:]
             tempLine[1] = tempLine[1][4:]
             documents.append(tempLine)
-        #形成用户行程
+        #形成用户行程和poi字典，属性为{'pid':{"lat":1,"lon":1}
         USERS = {}
         class CheckIn:
             def __init__(self,pid,Lat,Lon,day,time):
@@ -34,12 +37,15 @@ class POICounter():
                 USERS[record[0]] = []
             USERS[record[0]].append(CheckIn(record[1],record[2],record[3],record[5],record[4]))
 
+            self.poi_dict[int(record[1])] = {"lat":record[2],"lon":record[3]}
 
         #排序用户行程
         for User in USERS:
             temp = USERS[User]
             temp=sorted(temp,key=lambda checkin:(checkin.day,checkin.time))
             USERS[User] = temp
+        self.user_dict = USERS
+
         #将用户行程变成句子
         for User in USERS:
             sentence = ""
@@ -49,15 +55,12 @@ class POICounter():
                 else:
                     sentence += str(visit.pid)
             filter_poi_list.append(sentence)
-
         c = Counter()
         for sentence in filter_poi_list:
             templist = sentence.split(" ")
             c.update(sentence.split(" "))
         del c['']
-
-        #形成POI子典，属性为{'values','possibility','lat','lon'}
-
+        self.count_res = c
 
 
 
