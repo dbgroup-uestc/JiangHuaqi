@@ -1,4 +1,5 @@
 import re
+import math
 from  collections import Counter
 class POICounter():
     #计算POI出现频率,输入文件中记录必须如：USER_1083	LOC_1500	1.4447635942370927,103.76816511154175	06:57	0
@@ -26,8 +27,8 @@ class POICounter():
         class CheckIn:
             def __init__(self,pid,Lat,Lon,day,time):
                 self.pid = int(pid)
-                self.Lat = Lat
-                self.Lon = Lon
+                self.Lat = float(Lat)
+                self.Lon = float(Lon)
                 self.day = int(day)
                 self.time = time
             def __repr__(self):
@@ -37,7 +38,7 @@ class POICounter():
                 USERS[record[0]] = []
             USERS[record[0]].append(CheckIn(record[1],record[2],record[3],record[5],record[4]))
 
-            self.poi_dict[int(record[1])] = {"lat":record[2],"lon":record[3]}
+            self.poi_dict[int(record[1])] = {"lat":float(record[2]),"lon":float(record[3])}
 
         #排序用户行程
         for User in USERS:
