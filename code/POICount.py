@@ -62,6 +62,8 @@ class POICounter():
             c.update(sentence.split(" "))
         del c['']
         self.count_res = c
+        for poi in c.keys():
+            self.poi_dict[int(poi)]["frequence"] = c[poi]
 
 
 
