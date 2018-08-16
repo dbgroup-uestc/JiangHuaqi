@@ -12,7 +12,7 @@
 
 不同于word2vec的CBOW的简单的Huffman tree，作者为了加入地理信息，从而改造了Huffman Tree的构建，实际上就是在给POI建立Huffman Tree之前，首先根据地理信息，将POI分成多个区域，同时又根据POI影响原则，将POI赋予给在规定影响范围内的区域但是POI又不在的区域，但是存在概率问题。这意味着在最后Huffman Tree中有多条通往一个POI的路径，这就涉及概率问题，所以在POI信息，在set集合中的POI需要添加概率信息进去。其中分区域的方法就是二分法，所以形成了一个Binary Tree.
 
-1. 建立一个Tree Node类，里面包含了左右节点信息，和值（叶节点存储的是单词本身，非叶子节点存储中间向量），frequency(用于存储Huffman Tree的构建中节点频率)，region(用于基础二叉树建立，包含区域大小、POI的集合、区域的四个顶点的坐标）、Huffman Code(Huffman编码用于后面概率计算)
+1. 建立一个Tree Node类，里面包含了左右节点信息，和值（叶节点存储的是单词本身，非叶子节点存储中间向量），frequency(用于存储Huffman Tree的构建中节点频率)，region(用于基础二叉树建立，包含区域大小、POI的集合、四条经纬度的值）、Huffman Code(Huffman编码用于后面概率计算)
 2. 建立一个二叉树...
 3. 在二叉树下建立一个Huffman Tree（代码已有）
 
