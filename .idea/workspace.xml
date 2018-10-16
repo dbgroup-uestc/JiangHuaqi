@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6342bdd2-95e8-4d90-b31f-f463a4e3a83e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/code/TensorFlow/MINIST_SIMPLE.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/TensorFlow/Test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/TensorFlow/mnist_eval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/TensorFlow/mnist_inference.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/TensorFlow/mnist_train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/github.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/github.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,14 +60,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mnist_train.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mnist_train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/TensorFlow/mnist_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
+            <state relative-caret-position="566">
               <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="38">
+                <caret line="2" selection-start-line="2" selection-end-line="2" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -91,8 +96,8 @@
       <file leaf-file-name="mnist_eval.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/TensorFlow/mnist_eval.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="304">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -131,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/paper/Learning From GLR.md" />
         <option value="$PROJECT_DIR$/paper/数学原理.md" />
         <option value="$PROJECT_DIR$/code/test.py" />
@@ -152,6 +156,7 @@
         <option value="$PROJECT_DIR$/code/TensorFlow/mnist_inference.py" />
         <option value="$PROJECT_DIR$/code/TensorFlow/mnist_eval.py" />
         <option value="$PROJECT_DIR$/code/TensorFlow/mnist_train.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -192,21 +197,6 @@
               <item name="JiangHuaqi" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="TensorFlow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JiangHuaqi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JiangHuaqi" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="TensorFlow" type="462c0819:PsiDirectoryNode" />
-              <item name="path" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JiangHuaqi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JiangHuaqi" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="TensorFlow" type="462c0819:PsiDirectoryNode" />
-              <item name="path" type="462c0819:PsiDirectoryNode" />
-              <item name="to" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JiangHuaqi" type="b2602c69:ProjectViewProjectNode" />
@@ -468,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532957296794</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2017/8/28 构建简单的神经网络">
+      <created>1535424279341</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1535424279341</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -486,21 +483,21 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5010661" side_tool="true" weight="0.3997833" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="6" sideWeight="0.5270758" side_tool="true" visible="true" weight="0.17217484" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="6" sideWeight="0.5282714" side_tool="true" visible="true" weight="0.17217484" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49934897" weight="0.2156013" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.49729145" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32719395" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" sideWeight="0.48922414" weight="0.32995737" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.47292417" visible="true" weight="0.17217484" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.4717286" visible="true" weight="0.17217484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" visible="true" weight="0.3997833" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.3997833" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -508,7 +505,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32936078" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +536,8 @@
     <MESSAGE value="2017/7/28 完成数据清理" />
     <MESSAGE value="2017/7/28 第一周工作完成" />
     <MESSAGE value="2017/7/30 完成分区产生的二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="2017/7/30 完成分区产生的二叉树" />
+    <MESSAGE value="2017/8/28 构建简单的神经网络" />
+    <option name="LAST_COMMIT_MESSAGE" value="2017/8/28 构建简单的神经网络" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -700,15 +698,6 @@
     <entry file="file://$PROJECT_DIR$/paper/Learning From GLR.md" />
     <entry file="file://$PROJECT_DIR$/paper/Learning From GLR.md" />
     <entry file="file://$PROJECT_DIR$/paper/1532248143883.png" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/paper/Learning From GLR.md" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -769,16 +758,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/TensorFlow/path/to/model/combined_model.pb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/TensorFlow/path/to/model/model.ckpt.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/code/TensorFlow/path/to/model/combined_model.pb" />
+    <entry file="file://$PROJECT_DIR$/code/TensorFlow/path/to/model/model.ckpt.json" />
     <entry file="file://$PROJECT_DIR$/code/TensorFlow/1.py" />
     <entry file="file://$PROJECT_DIR$/code/TensorFlow/MINIST_SIMPLE.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -806,8 +787,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/TensorFlow/mnist_eval.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="304">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -816,11 +797,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/TensorFlow/mnist_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="566">
           <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="38">
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
